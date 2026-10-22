@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Sparkles, ShieldAlert } from "lucide-react";
 
 export function Footer() {
@@ -11,7 +11,7 @@ export function Footer() {
               <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-neutral-900 text-white text-xs">
                 <Sparkles className="h-4 w-4" />
               </span>
-              <span>SEA:NIOR</span>
+              <span>SEA;NIOR</span>
             </div>
             <p className="text-sm text-neutral-600 leading-relaxed max-w-md">
               시니어의 소중한 경험과 재능을 콘텐츠로 만들어 세상과 연결하고,
@@ -39,9 +39,10 @@ export function Footer() {
               현재 버전은 MVP 검증을 위한 공개 데모 환경입니다. 민감한 개인정보는 입력하지 마세요.
             </span>
           </div>
-          <div>© {new Date().getFullYear()} SEA:NIOR. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} SEA;NIOR. All rights reserved.</div>
         </div>
       </div>
     </footer>
   );
 }
+
