@@ -1,4 +1,4 @@
-﻿# SEA;NIOR - 시니어의 재능을 세상과 연결하는 콘텐츠 서비스
+# SEA;NIOR - 시니어의 재능을 세상과 연결하는 콘텐츠 서비스
 
 > **“당신의 재능은 아직 끝나지 않았습니다.”**  
 > 시니어의 소중한 경험과 재능을 콘텐츠로 만들어 세상과 연결하고, 자녀나 주변 사람의 도움 없이도 지속적인 창작 활동을 이어갈 수 있도록 돕는 서비스입니다.
@@ -105,10 +105,12 @@ npm run build
 
 ## 7. 실제 배포 및 저장소 현황
 
-- **GitHub 저장소 URL**: **미연결** (사용자 계정 생성 및 원격 연결 후 푸시 예정)
-- **Vercel 배포 URL**: **미배포** (사용자 Vercel 계정 연동 후 배포 예정)
-
-> 임의의 가짜 URL을 생성하지 않으며, 실제 계정 연결 후 즉시 배포 가능한 상태로 모든 코드와 빌드가 검증되어 있습니다.
+- **GitHub 저장소 URL**: [https://github.com/DRSHIN1025/seanior](https://github.com/DRSHIN1025/seanior)
+- **Vercel 프로덕션 배포 URL**: [https://seanior-gamma.vercel.app/](https://seanior-gamma.vercel.app/)
+- **제출 브랜치 구성**:
+  - `main`: 제출 저장소 안내 브랜치
+  - `mission-5`: 독립 실행 가능한 랜딩 페이지 제출 브랜치
+  - `mission-6`: 완성된 MVP 전체 기능이 포함된 제출 브랜치 (Vercel 자동 배포 연동)
 
 ---
 
